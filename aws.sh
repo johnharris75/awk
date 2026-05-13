@@ -1,14 +1,14 @@
 #!/bin/bash
 ##############
-#Author: JOhn
-#This script will report the aws reource
-#AW 3
-#AW EC2
+#Author: John
+#This script will report the aws resource
+#AWS S3
+#AWS EC2
 #AWS Lambda
 #AW IAM USER
 #DEBUG MODE
 set -x
-#List s3 buckers 
+#List s3 buckets 
 echo "Print list of s3 buckets"
 aws 3 list >> resourceTracker
 
