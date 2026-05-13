@@ -1,0 +1,10 @@
+ a=4
+ b=8
+
+ if (( $a > $b ))
+
+then
+	echo "A is greater then b"
+else
+	echo "b is greater than a"
+fi
