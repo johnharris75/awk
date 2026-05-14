@@ -2,5 +2,5 @@
 awk 'BEGIN{FS=","} {print $1}'
 
 #changes field seperator to colon
-awk 'BEGIN{FS=","} {print $1}'
+awk 'BEGIN{FS=":"} {print $1}'
 
