@@ -1,0 +1,6 @@
+#changes field seperator to comma
+awk 'BEGIN{FS=","} {print $1}'
+
+#changes field seperator to colon
+awk 'BEGIN{FS=","} {print $1}'
+
